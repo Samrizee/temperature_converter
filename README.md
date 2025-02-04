@@ -24,15 +24,18 @@ $ export PYTHONPATH=$PYTHONPATH:/localpath/temperature_converter
 
 To run tests, navigate to the test directory and run:
 
+
 ```bash
+$ cd test
 $ python -m unittest test_converter.py
 ```
 
 ## Usage
 
-Import the conversion functions, open python on terminal
+Import the conversion functions, open python on terminal on the root folder temperature_converter
 
 ```bash
+$ cd ..
 $ ipython
 ```
 
@@ -49,7 +52,7 @@ To Use this temprature converter from Command-Line Interface, go to the root fol
 
 ```bash
 
-cd /Pypi/temperature_converter
+cd ../temperature_converter
 python -m temperature_converter.cli 100 Celsius Fahrenheit  #this will convert 100 Celsius to Fahrenheit
 python -m temperature_converter.cli 10 Celsius Kelvin  # this will convert 10 Celsius to Kelvin
 python -m temperature_converter.cli 30 Fahrenheit Kelvin # this will convert 30 Fahrenheit to Kelvin
@@ -59,6 +62,10 @@ python -m temperature_converter.cli 300 Kelvin Celsius # this will convert  300 
 
 ```
 
+## log file
+
+See temperature_conversion.log for a record of all temperature conversions.
+See [temperature_conversion.log](temperature_conversion.log) for logs.
 
 
 

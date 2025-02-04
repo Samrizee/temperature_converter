@@ -8,25 +8,38 @@ Clone the repository and Navigate into the Directory
 
 ```bash
 $ git clone https://github.com/Samrizee/temperature_converter.git
-$cd temprature_converter
-$pip install -e .
+$ cd temprature_converter
+$ pip install -e .
 ```
 
-## Usage
+## add Python envirmental variable
+```bash
+$ echo $PYTHONPATH
 
-Import the conversion functions
+$ export PYTHONPATH=$PYTHONPATH:/localpath/temperature_converter
 
-```python
-from temprature_converter.converter import celsius_to_farhanite, farhanite_to_celcius
-print (celisus_to_farhaniet(26))
-print (farhanite to celsius(77))
 ```
+
 ## Running Unit test
 
 To run tests, navigate to the test directory and run:
 
 ```bash
 $ python -m unittest test_converter.py
+```
+
+## Usage
+
+Import the conversion functions, open python on terminal
+
+```bash
+$ ipython
+```
+
+```python
+from temprature_converter.converter import celsius_to_farhanite, farhanite_to_celcius
+print (celisus_to_farhaniet(26))
+print (farhanite to celsius(77))
 ```
 
 

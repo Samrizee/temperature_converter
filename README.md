@@ -20,6 +20,7 @@ $ export PYTHONPATH=$PYTHONPATH:/localpath/temperature_converter
 
 ```
 
+
 ## Running Unit test
 
 To run tests, navigate to the test directory and run:
@@ -46,7 +47,7 @@ print (farhanite to celsius(77))
 ```
 
 
-## CLI usage
+## use the command-line interface for temperature conversions(CLI)usage
 
 To Use this temprature converter from Command-Line Interface, go to the root folder, temperature_converter
 

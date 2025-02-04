@@ -64,8 +64,7 @@ python -m temperature_converter.cli 300 Kelvin Celsius # this will convert  300 
 
 ## log file
 
-See temperature_conversion.log for a record of all temperature conversions.
-See [temperature_conversion.log](temperature_conversion.log) for logs.
+See [temperature_conversion.log](temperature_conversion.log) for a record of all temperature conversions.
 
 
 

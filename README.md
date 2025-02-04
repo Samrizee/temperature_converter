@@ -37,12 +37,12 @@ To Use this temprature converter from Command-Line Interface, go to the root fol
 ```bash
 
 cd /Pypi/temperature_converter
-python -m temperature_converter.cli 100 Celsius Fahrenheit -- this will convert 100 Celsius to Fahrenheit
-python -m temperature_converter.cli 10 Celsius Kelvin -- this will convert 10 Celsius to Kelvin
-python -m temperature_converter.cli 30 Fahrenheit Kelvin -- this will convert 30 Fahrenheit to Kelvin
-python -m temperature_converter.cli 50 Fahrenheit Celsius -- this will convert 50 Fahrenheit to Celsius
-python -m temperature_converter.cli 200 Kelvin Fahrenheit -- this will convert 200 Kelvin to Fahrenheit
-python -m temperature_converter.cli 300 Kelvin Celsius -- this will convert  300 Kelvin to Celsius
+python -m temperature_converter.cli 100 Celsius Fahrenheit  #this will convert 100 Celsius to Fahrenheit
+python -m temperature_converter.cli 10 Celsius Kelvin  # this will convert 10 Celsius to Kelvin
+python -m temperature_converter.cli 30 Fahrenheit Kelvin # this will convert 30 Fahrenheit to Kelvin
+python -m temperature_converter.cli 50 Fahrenheit Celsius # this will convert 50 Fahrenheit to Celsius
+python -m temperature_converter.cli 200 Kelvin Fahrenheit # this will convert 200 Kelvin to Fahrenheit
+python -m temperature_converter.cli 300 Kelvin Celsius # this will convert  300 Kelvin to Celsius
 
 ```
 
